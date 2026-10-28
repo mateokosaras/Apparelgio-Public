@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0000010000000000000001 /* ApparelgioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000101 /* ApparelgioApp.swift */; };
+		1A0000010000000000000002 /* Models/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000102 /* Models/Models.swift */; };
+		1A0000010000000000000003 /* Models/BackendModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000103 /* Models/BackendModels.swift */; };
+		1A0000010000000000000004 /* Core/AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000104 /* Core/AppState.swift */; };
+		1A0000010000000000000005 /* Core/DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000105 /* Core/DesignSystem.swift */; };
+		1A0000010000000000000006 /* Services/AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000106 /* Services/AppServices.swift */; };
+		1A0000010000000000000007 /* Services/SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000107 /* Services/SampleData.swift */; };
+		1A0000010000000000000008 /* Services/SwiftDataRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000108 /* Services/SwiftDataRepositories.swift */; };
+		1A0000010000000000000009 /* Features/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000109 /* Features/RootView.swift */; };
+		1A0000010000000000000010 /* Features/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000110 /* Features/OnboardingView.swift */; };
+		1A0000010000000000000011 /* Features/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000111 /* Features/HomeView.swift */; };
+		1A0000010000000000000012 /* Features/ClosetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000112 /* Features/ClosetView.swift */; };
+		1A0000010000000000000013 /* Features/AddGarmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000113 /* Features/AddGarmentView.swift */; };
+		1A0000010000000000000014 /* Features/OutfitViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000114 /* Features/OutfitViews.swift */; };
+		1A0000010000000000000015 /* Features/CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000115 /* Features/CalendarView.swift */; };
+		1A0000010000000000000016 /* Features/ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000116 /* Features/ProfileView.swift */; };
+		1A0000010000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000117 /* Assets.xcassets */; };
+		1A0000010000000000000018 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000119 /* PrivacyInfo.xcprivacy */; };
+		1A0000010000000000000021 /* Services/BackendGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000010000000000000121 /* Services/BackendGateway.swift */; };
+		8E1EA99C3040072900033D2C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EA99B3040072900033D2C /* AuthView.swift */; };
+		9F0000010000000000000001 /* AppwriteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0000010000000000000101 /* AppwriteClient.swift */; };
+		9F0000010000000000000002 /* Appwrite in Frameworks */ = {isa = PBXBuildFile; productRef = 9F0000010000000000000003 /* Appwrite */; };
+		9F0000010000000000000010 /* Services/AppwriteAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0000010000000000000102 /* Services/AppwriteAuthenticationService.swift */; };
+		9F0000010000000000000011 /* Services/AppwriteCloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0000010000000000000103 /* Services/AppwriteCloudSync.swift */; };
+		9F0000010000000000000012 /* Services/FutureAuthenticationProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0000010000000000000104 /* Services/FutureAuthenticationProviders.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0000010000000000000101 /* ApparelgioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApparelgioApp.swift; sourceTree = "<group>"; };
+		1A0000010000000000000102 /* Models/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		1A0000010000000000000103 /* Models/BackendModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/BackendModels.swift; sourceTree = "<group>"; };
+		1A0000010000000000000104 /* Core/AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/AppState.swift; sourceTree = "<group>"; };
+		1A0000010000000000000105 /* Core/DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/DesignSystem.swift; sourceTree = "<group>"; };
+		1A0000010000000000000106 /* Services/AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppServices.swift; sourceTree = "<group>"; };
+		1A0000010000000000000107 /* Services/SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/SampleData.swift; sourceTree = "<group>"; };
+		1A0000010000000000000108 /* Services/SwiftDataRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/SwiftDataRepositories.swift; sourceTree = "<group>"; };
+		1A0000010000000000000109 /* Features/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/RootView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000110 /* Features/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/OnboardingView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000111 /* Features/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/HomeView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000112 /* Features/ClosetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/ClosetView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000113 /* Features/AddGarmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AddGarmentView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000114 /* Features/OutfitViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/OutfitViews.swift; sourceTree = "<group>"; };
+		1A0000010000000000000115 /* Features/CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/CalendarView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000116 /* Features/ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/ProfileView.swift; sourceTree = "<group>"; };
+		1A0000010000000000000117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0000010000000000000118 /* Apparelgio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apparelgio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000010000000000000119 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1A0000010000000000000120 /* Apparelgio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Apparelgio.entitlements; sourceTree = "<group>"; };
+		1A0000010000000000000121 /* Services/BackendGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/BackendGateway.swift; sourceTree = "<group>"; };
+		8E1EA99B3040072900033D2C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		9F0000010000000000000101 /* AppwriteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppwriteClient.swift; sourceTree = "<group>"; };
+		9F0000010000000000000102 /* Services/AppwriteAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppwriteAuthenticationService.swift; sourceTree = "<group>"; };
+		9F0000010000000000000103 /* Services/AppwriteCloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppwriteCloudSync.swift; sourceTree = "<group>"; };
+		9F0000010000000000000104 /* Services/FutureAuthenticationProviders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/FutureAuthenticationProviders.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0000010000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0000010000000000000002 /* Appwrite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000010000000000000200 = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000201 /* Apparelgio */,
+				1A0000010000000000000202 /* Products */,
+				8E1EA9933040067800033D2C /* Services */,
+				8E1EA9953040068500033D2C /* Features */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000010000000000000201 /* Apparelgio */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000101 /* ApparelgioApp.swift */,
+				1A0000010000000000000102 /* Models/Models.swift */,
+				1A0000010000000000000103 /* Models/BackendModels.swift */,
+				1A0000010000000000000104 /* Core/AppState.swift */,
+				1A0000010000000000000105 /* Core/DesignSystem.swift */,
+				1A0000010000000000000106 /* Services/AppServices.swift */,
+				1A0000010000000000000121 /* Services/BackendGateway.swift */,
+				1A0000010000000000000107 /* Services/SampleData.swift */,
+				1A0000010000000000000108 /* Services/SwiftDataRepositories.swift */,
+				1A0000010000000000000109 /* Features/RootView.swift */,
+				1A0000010000000000000110 /* Features/OnboardingView.swift */,
+				1A0000010000000000000111 /* Features/HomeView.swift */,
+				1A0000010000000000000112 /* Features/ClosetView.swift */,
+				1A0000010000000000000113 /* Features/AddGarmentView.swift */,
+				1A0000010000000000000114 /* Features/OutfitViews.swift */,
+				1A0000010000000000000115 /* Features/CalendarView.swift */,
+				1A0000010000000000000116 /* Features/ProfileView.swift */,
+				1A0000010000000000000117 /* Assets.xcassets */,
+				1A0000010000000000000119 /* PrivacyInfo.xcprivacy */,
+				1A0000010000000000000120 /* Apparelgio.entitlements */,
+				8E1EA99B3040072900033D2C /* AuthView.swift */,
+				9F0000010000000000000101 /* AppwriteClient.swift */,
+				9F0000010000000000000102 /* Services/AppwriteAuthenticationService.swift */,
+				9F0000010000000000000103 /* Services/AppwriteCloudSync.swift */,
+				9F0000010000000000000104 /* Services/FutureAuthenticationProviders.swift */,
+			);
+			path = Apparelgio;
+			sourceTree = "<group>";
+		};
+		1A0000010000000000000202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000010000000000000118 /* Apparelgio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1EA9933040067800033D2C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8E1EA9953040068500033D2C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000010000000000000300 /* Apparelgio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000010000000000000401 /* Build configuration list for PBXNativeTarget "Apparelgio" */;
+			buildPhases = (
+				1A0000010000000000000301 /* Sources */,
+				2B0000010000000000000002 /* Frameworks */,
+				1A0000010000000000000302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apparelgio;
+			packageProductDependencies = (
+				9F0000010000000000000003 /* Appwrite */,
+			);
+			productName = Apparelgio;
+			productReference = 1A0000010000000000000118 /* Apparelgio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000010000000000000500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					1A0000010000000000000300 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A0000010000000000000400 /* Build configuration list for PBXProject "Apparelgio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0000010000000000000200;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9F0000010000000000000004 /* XCRemoteSwiftPackageReference "sdk-for-apple" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1A0000010000000000000202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000010000000000000300 /* Apparelgio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000010000000000000302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000010000000000000017 /* Assets.xcassets in Resources */,
+				1A0000010000000000000018 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0000010000000000000301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000010000000000000001 /* ApparelgioApp.swift in Sources */,
+				1A0000010000000000000002 /* Models/Models.swift in Sources */,
+				1A0000010000000000000003 /* Models/BackendModels.swift in Sources */,
+				1A0000010000000000000004 /* Core/AppState.swift in Sources */,
+				1A0000010000000000000005 /* Core/DesignSystem.swift in Sources */,
+				1A0000010000000000000006 /* Services/AppServices.swift in Sources */,
+				1A0000010000000000000021 /* Services/BackendGateway.swift in Sources */,
+				1A0000010000000000000007 /* Services/SampleData.swift in Sources */,
+				8E1EA99C3040072900033D2C /* AuthView.swift in Sources */,
+				1A0000010000000000000008 /* Services/SwiftDataRepositories.swift in Sources */,
+				1A0000010000000000000009 /* Features/RootView.swift in Sources */,
+				1A0000010000000000000010 /* Features/OnboardingView.swift in Sources */,
+				1A0000010000000000000011 /* Features/HomeView.swift in Sources */,
+				1A0000010000000000000012 /* Features/ClosetView.swift in Sources */,
+				1A0000010000000000000013 /* Features/AddGarmentView.swift in Sources */,
+				1A0000010000000000000014 /* Features/OutfitViews.swift in Sources */,
+				1A0000010000000000000015 /* Features/CalendarView.swift in Sources */,
+				9F0000010000000000000001 /* AppwriteClient.swift in Sources */,
+				9F0000010000000000000010 /* Services/AppwriteAuthenticationService.swift in Sources */,
+				9F0000010000000000000011 /* Services/AppwriteCloudSync.swift in Sources */,
+				9F0000010000000000000012 /* Services/FutureAuthenticationProviders.swift in Sources */,
+				1A0000010000000000000016 /* Features/ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000010000000000000600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0000010000000000000601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1A0000010000000000000602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apparelgio/Apparelgio.Debug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7384CP7H5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apparelgio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apparelgio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0000010000000000000603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apparelgio/Apparelgio.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7384CP7H5H;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apparelgio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apparelgio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000010000000000000400 /* Build configuration list for PBXProject "Apparelgio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000010000000000000600 /* Debug */,
+				1A0000010000000000000601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000010000000000000401 /* Build configuration list for PBXNativeTarget "Apparelgio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000010000000000000602 /* Debug */,
+				1A0000010000000000000603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F0000010000000000000004 /* XCRemoteSwiftPackageReference "sdk-for-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appwrite/sdk-for-apple";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F0000010000000000000003 /* Appwrite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F0000010000000000000004 /* XCRemoteSwiftPackageReference "sdk-for-apple" */;
+			productName = Appwrite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A0000010000000000000500 /* Project object */;
+}

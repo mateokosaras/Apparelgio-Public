@@ -1,0 +1,18 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Local verification artifacts
+Screenshots/
+
+# Documentation exports and local QA artifacts
+docs/
+.qa-informe-*/
